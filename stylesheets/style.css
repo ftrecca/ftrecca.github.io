@@ -1,0 +1,281 @@
+
+/* Globals */
+body {
+ max-width: 100%;
+  font-family: 'EB Garamond', serif;
+       display: block;
+}
+
+h1{
+          font-family: 'EB Garamond', serif;
+          font-family: 'Playfair Display', serif;
+}
+h2{
+  font-size: 18px;
+   font-family: 'EB Garamond', serif;
+   font-family: 'Playfair Display', serif;
+   font-weight: Normal; 
+   margin: 0px;
+
+}
+.dataviz{
+    /* width: 350px;*/
+     max-width: 90%;
+}
+.datavizbox{
+     /* width: 350px;*/
+      max-width: 95%;
+      
+
+}
+/* Header */
+header {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 400px;
+    max-width: 50%;
+}
+/* Section */
+section {
+      margin-left: auto;
+    margin-right: auto;
+  display: block;
+      width: 650px;
+    max-width: 100%;
+}
+.leftmarginbox{
+    margin-left: 20px;
+}
+.leftaligndiv{
+  text-align: left;
+  display:inline-block;
+}
+
+.outerdiv{
+  border: 0px solid;
+  margin: auto;
+  width: 50%;
+  min-width: 300px;
+  max-width: 100%;
+  padding: 0px;
+  margin-right: auto;
+  display: block;
+}
+.centeralign{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.journalname {
+    display: inline;
+   /* font-weight: bold;
+    color: #595853;*/
+    font-style: italic; 
+
+}
+.material1{
+       font-family: 'EB Garamond', serif;
+}
+section  a{
+    color: black;
+}
+a {
+    color: #cc3f35;
+    color: black;
+    font-weight: 400;
+    text-decoration: none;
+}
+p{
+    padding: 0px;
+    margin-top: 0px;
+}
+button {
+    background-color: #FFFFFF;
+    cursor: pointer;
+    padding: 0px;
+    border: none;
+    color: black;
+    text-align: left;
+    outline: none;
+    font-size: 100%;
+    transition: 0.4s;
+    font-family: 'EB Garamond', serif;
+
+}
+.papertitle {
+   /*  font-weight: bold; */
+   /*   font-size: 17px; */
+   /*   margin-bottom: 15px; */
+    text-align: left;
+  display:block;
+  color: #cc3f35;
+}
+
+.paperlevel1{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+/* abstract box */
+
+div.panel {
+    font-family: 'EB Garamond', serif;
+      padding: 0px;
+      margin-top: 5px;
+      display: none;
+      background-color: white;
+      font-size: 100%;
+      background-color: #F1F1F1; 
+       background-color: white;
+      text-align: justify;
+
+}
+div.panel.show {
+      display: block !important;
+}
+
+.mainblock{
+    padding-top: 5px;
+    padding-left: 0px;
+    margin-bottom: 25px;
+    max-height: 200px;
+    overflow: scroll;
+    max-width: 98%;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.mainblock::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.mainblock {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Section expansions */
+input {
+    display: none;
+}
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 1px;
+}
+label {
+     font-family: 'EB Garamond', serif;
+    display: block;    
+    padding: 0 0 0 0;
+    margin: 0px 0 0 0;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: left;
+    border-radius: 0px;
+    transition: ease .5s;
+    position: relative; /* ADDING THIS IS REQUIRED */
+    width: 210px;
+          font-family: 'Playfair Display', serif;
+}
+/*
+label:hover {
+    background: #4E8774;
+}
+*/
+
+label::after {
+    content: '+';
+    font-size: 26px;
+    position: absolute;
+    right: 197px;
+    top: -6px;
+}
+
+input:checked + label::after {
+    content: '-';
+    right: 0px;
+    bottom: 6px;
+       font-size: 26px;
+    position: absolute;
+      right: 198px;
+    top:-8px;
+}
+
+.content {
+    padding: 0px 0px;
+    margin: 0 0 1px 0;
+    border-radius: 0px;
+
+}
+
+input + label + .content {
+    display: none;
+}
+
+input:checked + label + .content {
+    display: block;
+}
+
+
+@media only screen and (max-width: 700px) {
+  body {
+   /* background-color: lightblue;*/
+  }
+  h1{
+  margin-bottom: 0px;
+   font-size: 20px;
+     line-height: 1.1em;
+   font-family: 'EB Garamond', serif;
+   font-weight: Normal; 
+   margin: 0px;
+
+    }
+    h2{
+  font-size: 15px;
+   font-family: 'EB Garamond', serif;
+   font-family: 'Playfair Display', serif;
+   font-weight: Normal; 
+   margin: 0px;
+
+}
+    body {
+    font-family: 'EB Garamond', serif;
+    font-size: 12px;
+    /*line-height: 1.1em;*/
+     display: block;
+    
+
+}
+.outerdiv{
+  border: 0px solid;
+  margin: auto;
+  width: 90%;
+
+  padding: 0px;
+  margin-right: auto;
+  display: block;
+}
+.mainblock{
+    padding-top: 5px;
+    padding-left: 0px;
+    margin-bottom: 25px;
+    max-height: 110px;
+    overflow: scroll;
+    max-width: 98%;
+}
+label {
+     font-family: 'EB Garamond', serif;
+    display: block;    
+    padding: 0 0 0 0;
+    margin: 0px 0 0 0;
+    cursor: pointer;
+    font-size: 15px;
+    text-align: left;
+    border-radius: 0px;
+    transition: ease .5s;
+    position: relative; /* ADDING THIS IS REQUIRED */
+    width: 210px;
+          font-family: 'Playfair Display', serif;
+}
+}
