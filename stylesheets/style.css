@@ -2,17 +2,17 @@
 /* Globals */
 body {
  max-width: 100%;
-  font-family: 'EB Garamond', serif;
+  font-family: 'Times New Roman', serif;
        display: block;
 }
 
 h1{
-          font-family: 'EB Garamond', serif;
+          font-family: 'Times New Roman', serif;
           font-family: 'Playfair Display', serif;
 }
 h2{
   font-size: 18px;
-   font-family: 'EB Garamond', serif;
+   font-family: 'Times New Roman', serif;
    font-family: 'Playfair Display', serif;
    font-weight: Normal; 
    margin: 0px;
@@ -77,7 +77,7 @@ section {
 
 }
 .material1{
-       font-family: 'EB Garamond', serif;
+       font-family: 'Times New Roman', serif;
 }
 section  a{
     color: black;
@@ -102,7 +102,7 @@ button {
     outline: none;
     font-size: 100%;
     transition: 0.4s;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Times New Roman', serif;
 
 }
 .papertitle {
@@ -121,7 +121,7 @@ button {
 /* abstract box */
 
 div.panel {
-    font-family: 'EB Garamond', serif;
+    font-family: 'Times New Roman', serif;
       padding: 0px;
       margin-top: 5px;
       display: none;
@@ -165,7 +165,7 @@ table {
     border-spacing: 1px;
 }
 label {
-     font-family: 'EB Garamond', serif;
+     font-family: 'Times New Roman', serif;
     display: block;    
     padding: 0 0 0 0;
     margin: 0px 0 0 0;
@@ -226,21 +226,21 @@ input:checked + label + .content {
   margin-bottom: 0px;
    font-size: 20px;
      line-height: 1.1em;
-   font-family: 'EB Garamond', serif;
+   font-family: 'Times New Roman', serif;
    font-weight: Normal; 
    margin: 0px;
 
     }
     h2{
   font-size: 15px;
-   font-family: 'EB Garamond', serif;
+   font-family: 'Times New Roman', serif;
    font-family: 'Playfair Display', serif;
    font-weight: Normal; 
    margin: 0px;
 
 }
     body {
-    font-family: 'EB Garamond', serif;
+    font-family: 'Times New Roman', serif;
     font-size: 12px;
     /*line-height: 1.1em;*/
      display: block;
@@ -265,7 +265,7 @@ input:checked + label + .content {
     max-width: 98%;
 }
 label {
-     font-family: 'EB Garamond', serif;
+     font-family: 'Times New Roman', serif;
     display: block;    
     padding: 0 0 0 0;
     margin: 0px 0 0 0;
