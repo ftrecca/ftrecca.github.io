@@ -106,12 +106,12 @@ button {
 
 }
 .papertitle {
-   /*  font-weight: bold; */
+   font-weight: bold;
    /*   font-size: 17px; */
    /*   margin-bottom: 15px; */
     text-align: left;
-  display:block;
-  color: #cc3f35;
+    display:block;
+    color: #FFFFFF;
 }
 
 .paperlevel1{
