@@ -8,12 +8,12 @@ body {
 
 h1{
           font-family: 'Times New Roman', serif;
-          font-family: 'Playfair Display', serif;
+          font-family: 'Times New Roman', serif;
 }
 h2{
   font-size: 18px;
    font-family: 'Times New Roman', serif;
-   font-family: 'Playfair Display', serif;
+   font-family: 'Times New Roman', serif;
    font-weight: Normal; 
    margin: 0px;
 
@@ -176,7 +176,7 @@ label {
     transition: ease .5s;
     position: relative; /* ADDING THIS IS REQUIRED */
     width: 210px;
-          font-family: 'Playfair Display', serif;
+          font-family: 'Times New Roman', serif;
 }
 /*
 label:hover {
@@ -234,7 +234,7 @@ input:checked + label + .content {
     h2{
   font-size: 15px;
    font-family: 'Times New Roman', serif;
-   font-family: 'Playfair Display', serif;
+   font-family: 'Times New Roman', serif;
    font-weight: Normal; 
    margin: 0px;
 
@@ -276,6 +276,6 @@ label {
     transition: ease .5s;
     position: relative; /* ADDING THIS IS REQUIRED */
     width: 210px;
-          font-family: 'Playfair Display', serif;
+          font-family: 'Times New Roman', serif;
 }
 }
