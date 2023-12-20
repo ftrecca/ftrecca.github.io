@@ -195,7 +195,7 @@ label:hover {
 */
 
 label::after {
-    content: '+';
+    content: '◉';
     font-size: 26px;
     position: absolute;
     right: 197px;
@@ -203,7 +203,7 @@ label::after {
 }
 
 input:checked + label::after {
-    content: '-';
+    content: '⦿';
     right: 0px;
     bottom: 6px;
        font-size: 26px;
