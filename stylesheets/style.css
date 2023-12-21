@@ -79,11 +79,11 @@ section {
        font-family: 'Times New Roman', serif;
 }
 section  a{
-    color: skyblue;
+    color: steelblue;
     text-decoration: underline;
 }
 a {
-    color: skyblue;
+    color: steelblue;
     font-weight: 400;
     text-decoration: underline;
 }
@@ -96,7 +96,7 @@ button {
     cursor: pointer;
     padding: 0px;
     border: none;
-    color: skyblue;
+    color: steelblue;
     text-align: left;
     text-decoration: underline;
     outline: none;
