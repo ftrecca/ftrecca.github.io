@@ -97,8 +97,9 @@ button {
     cursor: pointer;
     padding: 0px;
     border: none;
-    color: black;
+    color: skyblue;
     text-align: left;
+    text-decoration: underline;
     outline: none;
     font-size: 100%;
     transition: 0.4s;
