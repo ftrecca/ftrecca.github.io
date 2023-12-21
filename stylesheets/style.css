@@ -181,10 +181,9 @@ label {
     font-size: 18px;
     text-align: left;
     border-radius: 0px;
-    transition: ease .5s;
+    transition: ease 1s;
     position: relative; /* ADDING THIS IS REQUIRED */
     width: 210px;
-          font-family: 'Times New Roman', serif;
 }
 /*
 label:hover {
@@ -284,6 +283,5 @@ label {
     transition: ease .5s;
     position: relative; /* ADDING THIS IS REQUIRED */
     width: 210px;
-          font-family: 'Times New Roman', serif;
 }
 }
