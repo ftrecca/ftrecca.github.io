@@ -7,16 +7,25 @@ body {
 }
 
 h1{
-          font-family: 'Raleway', serif;
+          font-family: 'Montserrat', serif;
 }
 h2{
   font-size: 18px;
-   font-family: 'Raleway', serif;
+   font-family: 'Montserrat', serif;
    font-weight: Normal; 
    margin: 0px;
 
 }
+.dataviz{
+    /* width: 350px;*/
+     max-width: 90%;
+}
+.datavizbox{
+     /* width: 350px;*/
+      max-width: 95%;
+      
 
+}
 /* Header */
 header {
     margin-left: auto;
@@ -24,7 +33,7 @@ header {
     text-align: center;
     width: 400px;
     max-width: 50%;
-    font-family: 'Raleway', serif;
+    font-family: 'Montserrat', serif;
 }
 /* Section */
 section {
@@ -122,7 +131,7 @@ button {
 /* abstract box */
 
 div.panel {
-    font-family: 'Raleway', serif;
+    font-family: 'Times New Roman', serif;
       padding: 0px;
       margin-top: 5px;
       display: none;
@@ -164,7 +173,7 @@ table {
     border-spacing: 1px;
 }
 label {
-     font-family: 'Raleway', serif;
+     font-family: 'Times New Roman', serif;
     display: block;    
     padding: 0 0 0 0;
     margin: 0px 0 0 0;
@@ -218,19 +227,21 @@ input:checked + label + .content {
 
 @media only screen and (max-width: 900px) {
   body {
+   /* background-color: lightblue;*/
   }
   h1{
   margin-bottom: 0px;
    font-size: 20px;
      line-height: 1.1em;
-   font-family: 'Raleway', serif;
+   font-family: 'Times New Roman', serif;
    font-weight: Normal; 
    margin: 0px;
 
     }
     h2{
   font-size: 15px;
-   font-family: 'Raleway', serif;
+   font-family: 'Times New Roman', serif;
+   font-family: 'Times New Roman', serif;
    font-weight: Normal; 
    margin: 0px;
 
