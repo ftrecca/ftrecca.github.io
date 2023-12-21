@@ -97,7 +97,7 @@ button {
     cursor: pointer;
     padding: 0px;
     border: none;
-    color: skyblue;
+    color: royalblue;
     text-align: left;
     text-decoration: underline;
     outline: none;
@@ -136,10 +136,8 @@ div.panel {
       padding: 0px;
       margin-top: 5px;
       display: none;
-      background-color: white;
       font-size: 100%;
-      background-color: #F1F1F1; 
-       background-color: white;
+      background-color: white;
       text-align: justify;
 
 }
