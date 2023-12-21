@@ -8,11 +8,9 @@ body {
 
 h1{
           font-family: 'Montserrat', serif;
-          font-family: 'Montserrat', serif;
 }
 h2{
   font-size: 18px;
-   font-family: 'Montserrat', serif;
    font-family: 'Montserrat', serif;
    font-weight: Normal; 
    margin: 0px;
@@ -35,6 +33,7 @@ header {
     text-align: center;
     width: 400px;
     max-width: 50%;
+    font-family: 'Montserrat', serif;
 }
 /* Section */
 section {
@@ -80,13 +79,13 @@ section {
        font-family: 'Times New Roman', serif;
 }
 section  a{
-    color: black;
+    color: skyblue;
+    text-decoration: underline;
 }
 a {
-    color: black;
-    color: black;
+    color: skyblue;
     font-weight: 400;
-    text-decoration: none;
+    text-decoration: underline;
 }
 p{
     padding: 0px;
@@ -97,7 +96,7 @@ button {
     cursor: pointer;
     padding: 0px;
     border: none;
-    color: royalblue;
+    color: skyblue;
     text-align: left;
     text-decoration: underline;
     outline: none;
