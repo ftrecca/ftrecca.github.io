@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Researcher Website</title>
+    <title>Fabio Trecca, Ph.D.</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f5f5f5;
         }
 
         header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
+            background-color: #212121;
+            color: #ffffff;
             text-align: center;
+            padding: 20px 0;
         }
 
         #profile {
@@ -24,6 +24,8 @@
             align-items: center;
             justify-content: space-between;
             padding: 20px;
+            background-color: #333333;
+            color: #ffffff;
         }
 
         #profile img {
@@ -39,15 +41,30 @@
 
         section {
             padding: 20px;
-            border-top: 1px solid #ccc;
+            border-top: 1px solid #cccccc;
             display: none;
         }
 
         h2 {
             cursor: pointer;
-            color: #333;
-            border-bottom: 1px solid #ccc;
+            color: #212121;
+            border-bottom: 1px solid #cccccc;
             padding-bottom: 10px;
+            font-size: 1.5em;
+        }
+
+        p {
+            color: #333333;
+        }
+
+        a {
+            color: #4285f4;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -58,46 +75,46 @@
     </header>
 
     <div id="profile">
-        <img src="fabio.jpg" alt="Your Name">
+        <img src="fabio.jpeg" alt="Your Name">
         <div id="contact-info">
             <h2>Contact Information</h2>
             <p>Your Title</p>
             <p>Your Department</p>
-            <p>Email: your.email@example.com</p>
+            <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
             <p>Phone: (123) 456-7890</p>
         </div>
     </div>
 
-    <section id="about">
+    <section data-target="about">
         <h2>About Me</h2>
         <p>Your short bio goes here.</p>
     </section>
 
-    <section id="projects">
+    <section data-target="projects">
         <h2>Current Projects</h2>
         <p>Your current projects and research go here.</p>
     </section>
 
-    <section id="publications">
+    <section data-target="publications">
         <h2>Publications</h2>
         <p>Publications in press/under review and recently published articles go here.</p>
     </section>
 
-    <section id="teaching">
+    <section data-target="teaching">
         <h2>Teaching</h2>
         <p>Information about your teaching activities goes here.</p>
     </section>
 
-    <section id="media">
+    <section data-target="media">
         <h2>Media Coverage</h2>
         <p>Details about your media coverage go here.</p>
     </section>
 
     <script>
-        // JavaScript to toggle visibility of sections
         document.querySelectorAll('h2').forEach(header => {
             header.addEventListener('click', () => {
-                const section = header.nextElementSibling;
+                const sectionId = header.dataset.target;
+                const section = document.querySelector(`section[data-target="${sectionId}"]`);
                 section.style.display = section.style.display === 'none' ? 'block' : 'none';
             });
         });
